@@ -46,7 +46,7 @@ export const assignHandlerTypeToStorage = (storage, handlerType) => {
   const get = (entityType, handlerName) => {
     const handlersMap = handlers[entityType];
 
-    return handlersMap ? handlersMap.get(handlerName) : undefined;
+    return handlersMap && handlersMap.get(handlerName);
   };
 
   const set = (handlerName, handler, ...entityTypes) => {

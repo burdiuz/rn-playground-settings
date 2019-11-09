@@ -5,7 +5,6 @@ const {
   fileHistory,
   directoryExpand,
   fileLock,
-  fsTarget,
   gistTarget,
 } = handlers;
 
@@ -15,5 +14,4 @@ const DIRECTORY = 'directory';
 applySettingHandler(fileHistory, FILE);
 applySettingHandler(fileLock, FILE);
 applySettingHandler(directoryExpand, DIRECTORY);
-applySettingHandler(fsTarget, FILE, DIRECTORY);
 applySettingHandler(gistTarget, FILE, DIRECTORY);
