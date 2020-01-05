@@ -4,7 +4,7 @@
   "private": true,
   "main": "source/index.js",
   "dependencies": {
-    "@actualwave/has-own": "file:../RNTestApp/node_modules/@actualwave/has-own",
-    "@actualwave/is-function": "file:../RNTestApp/node_modules/@actualwave/is-function"
+    "@actualwave/has-own": "^0.0.1",
+    "@actualwave/is-function": "^0.0.1"
   }
 }
